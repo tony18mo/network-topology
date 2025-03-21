@@ -18,26 +18,26 @@
 
         <!-- Distribution Layer -->
         <!-- Floor 1 -->
-        <mxCell id="d1a" value="S5590-28T8XC-EI #1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="d1a" value="Floor 1\nS5590-28T8XC-EI #1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d1b" value="S5590-28T8XC-EI #2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="d1b" value="Floor 1\nS5590-28T8XC-EI #2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="600" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         
         <!-- Floor 2 -->
-        <mxCell id="d2a" value="S5590-28T8XC-EI #1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="d2a" value="Floor 2\nS5590-28T8XC-EI #1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="300" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d2b" value="S5590-28T8XC-EI #2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="d2b" value="Floor 2\nS5590-28T8XC-EI #2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="600" y="260" width="120" height="60" as="geometry" />
         </mxCell>
 
         <!-- Floor 3 -->
-        <mxCell id="d3a" value="S5590-28T8XC-EI #1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="d3a" value="Floor 3\nS5590-28T8XC-EI #1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="300" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d3b" value="S5590-28T8XC-EI #2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
+        <mxCell id="d3b" value="Floor 3\nS5590-28T8XC-EI #2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#58D68D;strokeColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="600" y="360" width="120" height="60" as="geometry" />
         </mxCell>
 
@@ -73,6 +73,15 @@
 
         <!-- Access Connections -->
         <mxCell id="ac1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a1" target="d1a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a2" target="d1b" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a3" target="d2a" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ac4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="a4" target="d2b" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
